@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>registration form</title>
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <form class="registration" method="POST"
+        action="active.html">
+            <input type="text" 
+            name="order" 
+            id="order" 
+            placeholder="შეუკვეთე პროდუქტი დღესვე" class="up">
+            <input type="text" 
+            name="firstname" 
+            id="firstname" 
+            placeholder="სახელი">
+        
+            <input type="text" 
+            name="lastname" 
+            id="lastnamename" 
+            placeholder="გვარი">
+            <input type="number" 
+            name="phonenumber" 
+            id="phonenumber" 
+            placeholder="ტელეფონის ნომერი">
+            <div class="misamarti">
+                <p>გთხოვთ მიუთითოთ ზუსტი მისამართი</p>
+            </div>
+            <textarea name="textarea" id="textarea" cols="30" rows="10" class="textarea"></textarea>
+            <div class="misamarti">
+                <p>აირჩიეთ გადახდის მეთოდი</p>
+            </div>
+            <div class="radio flex">
+                <div class="rt">
+                     <input type="checkbox" name="baratii" id="baratii"><label for="baratii">  ბარათით გადახდა </label>
+                    </div>
+                <div class="rt">
+                <input type="checkbox" name="barati2" id="barati2"><label for="barati2">  ქეშით გადახდა </label>
+            </div>
+            </div>
+            <input type="submit" value="შეკვეთის გაფორმება">
+        </form>
+    </main>
+    <footer></footer>
+
+
+</body>
+
+</html>

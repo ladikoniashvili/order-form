@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: 0;
+    list-style-type: 0;
+    font-size: 18px;
+
+}
+body{
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.registration{
+    width: 700px;
+    margin: 150px auto;
+    margin-left: 40%;
+    
+}
+.registration input{
+    width: 100%;
+    outline: none;
+    padding: 14px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: solid #ffffff;
+    background-color: #e3dbdb75;
+    box-shadow: 10px 10px;
+    
+    
+    
+    
+    
+}
+
+
+.registration .up{
+    margin-bottom: 70px;
+    height: 100px;
+    background-color: #021010;
+    color: #ffffff;
+    text-align: center;
+    border: solid #02101000;
+    
+}
+.misamarti{
+    width: 100%;
+    text-align: start;
+    margin-bottom: 10px;
+    font-size: 14px;
+    
+}
+.misamarti p{
+    font-weight: bold;
+}
+.textarea{
+    width: 732px;
+    background-color: #e3dbdb75;
+    border-radius: 10px;
+    border: solid #ffffff;
+    box-shadow: 10px 10px;
+}
+.radio{
+    margin: 70px 70px;
+    padding: 10px;
+    display: block;
+    
+    
+    
+}
+.radio input{
+    width: 20%;
+   
+    
+    
+    
+}
+.rt{
+    width: 50%;
+    padding-left: 100px;
+   
+    
+}
+.rt input{
+    width: 20px;
+    height: 20px;
+    box-shadow: none;
+}
+.confirmation{
+    background-color: #021010;
+    margin: 150px auto;
+    color: #ffffff;
+    width: 750px;
+    height: 395px;
+    text-align: center;
+    
+}
+.confirmation h2{
+    font-size: 28px;
+    padding: 50px 50px;
+}
+.mainly input{
+    width: 750px;
+    height: 70px;
+    margin-left: 350px;
+    background-color: #dfe70a;
+    color:#021010;
+    border-radius: 10px;
+    box-shadow: 10px;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+
+
